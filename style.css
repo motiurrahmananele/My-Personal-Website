@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Merriweather' ;
 } 
 h1{
@@ -8,10 +9,11 @@ h1{
     color: orange;
 }
 .half-width{
-    width: 30%;
+    width: 45%;
     float:left;
-    margin-left: 3%;
-    padding-left: 1%;
+    margin-left: 2%;
+    padding-left: 2%;
+   
     
 }
 .half-width img{
@@ -20,7 +22,52 @@ h1{
 .top-banner{
     background-image: url("header-bg.png");
     background-repeat: no-repeat;
+    padding: 110px;
 }
 section{
-    height: 800px;
+    height: 500px;
+   
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.biography{
+    background-image: url("biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.s-l-w{
+    width: 25%;
+    float:left;
+    margin-left: 5%;
+    padding-left: 2%; 
+}
+
+.s-l-w img{
+    max-width: 100%;
+}
+.latest-work{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.text{
+    text-align: center;
+}
+.color-b{
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 20px 30px;
+    color: white;
+    font-weight: 700;
+
+}
+.footer{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
