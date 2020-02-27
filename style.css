@@ -1,0 +1,26 @@
+body{
+    font-family: 'Merriweather' ;
+} 
+h1{
+    font-size: 30px;
+}
+.name-highlight{
+    color: orange;
+}
+.half-width{
+    width: 30%;
+    float:left;
+    margin-left: 3%;
+    padding-left: 1%;
+    
+}
+.half-width img{
+ width: 100%;   
+}
+.top-banner{
+    background-image: url("header-bg.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 800px;
+}
